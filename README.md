@@ -296,13 +296,6 @@ This new section translates the analyses into **actionable intelligence** for cu
 
 ![Dashboard Preview](screenshots/Museum_Collection_Insights_page-0002.jpg)
 
-
-* Department → Top artist matrix
-* Interactive Artist Profile (cards + gallery)
-* Size analysis (height × width scatter)
-* Cross-filtering and drill-through enabled
-
-
 ---
 
 ## 🧑‍💼 Project Author
@@ -311,7 +304,7 @@ This new section translates the analyses into **actionable intelligence** for cu
 *Data Analytics Project | 2025*
 
 🔗 [LinkedIn](https://www.linkedin.com/in/shreya-pandey-97252431b/)
-📁 GitHub: [github.com/Shreya579/MoMA-ModernArt-Analytics](https://github.com/shreya579/MoMA-ModernArt-Analytics)
+📁 GitHub: [MoMA-ModernArt-Analytics](https://github.com/Sahil-S2/Modern-Treasures-Museum-Analytics)
 
 ---
 ::contentReference[oaicite:8]{index=8}
