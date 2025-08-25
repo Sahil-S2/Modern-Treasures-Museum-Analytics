@@ -6,15 +6,13 @@ Analysis period: **1929 – 2024**
 
 This repository contains an end-to-end analytics project that transforms raw museum records into an interactive Power BI dashboard and a repeatable SQL pipeline for cleaning, normalizing, and analyzing the Museum of Modern Art collection.
 
-> Full SQL script (step-by-step): `Museum_collection_analysis.sql` (included as PDF). :contentReference[oaicite:1]{index=1}
-
 ---
 
 ## 📦 Repository Contents
 
 - `Datasets/` — raw CSVs and dashboard preview images
-- `sql/` — main SQL script and modular SQL snippets (see `Museum_collection_analysis.sql`) :contentReference[oaicite:2]{index=2}
-- `powerbi/` — Power BI `.pbix` (if included)
+- `sql/` — main SQL script and modular SQL snippets (see `Museum_collection_analysis.sql`)
+- `powerbi/` — Power BI `.pbix` 
 - `README.md` — this document
 
 ---
@@ -28,8 +26,6 @@ This project demonstrates a full analytical workflow:
 4. **Feature engineering** (`Acquired_Year`, `Acquired_Month`, `Period_Category`)
 5. **Exploratory analysis & reporting** (top artists, acquisition trends, classifications)
 6. **Interactive visualization** in Power BI (two-page dashboard: Overview + Explorer)
-
-All SQL steps are implemented in the main script. See the script for the exact, runnable sequence. :contentReference[oaicite:3]{index=3}
 
 ---
 
@@ -146,7 +142,7 @@ SET Acquired_Year = YEAR(DateAcquired),
 
 ## 📈 Analysis Queries (representative)
 
-These are the main analytical queries included in the script; use them for reporting and dashboards. Full queries and results are available in the SQL script.&#x20;
+These are the main analytical queries included in the script; use them for reporting and dashboards.
 
 ### How modern are the artworks?
 
@@ -235,6 +231,61 @@ ORDER BY ARTWORK_COLLECTION DESC;
 
 ---
 
+## 📊 Key Business Insights
+
+### 🎨 How Modern is the Collection?
+- **80%+** of artworks were acquired post-1966  
+- Largest contribution: **21st Century Collection (2006–2024)** with over **51,000 artworks**  
+- Demonstrates the museum's strong commitment to modern and contemporary art
+
+### 🧑‍🎨 Most Featured Artists
+- **Ludwig Mies van der Rohe** tops the list with **~15,491 artworks**  
+- Other frequent contributors: *Eugène Atget*, *Louise Bourgeois*, *Pablo Picasso*, *Henri Matisse*
+
+### 🕒 Acquisition Trends
+- Major acquisition spikes in:
+  - **1966–1985** (Modern Growth)  
+  - **2006–2024** (21st Century Expansion)
+
+### 🗂️ Artwork Classification
+- Leading categories: *Photograph*, *Print*, *Illustrated Book* — the collection is heavy on reproducible visual media
+
+### 🌍 Nationality Distribution
+- Predominantly *American* artists, then *French*, *German*, and *British* — reflecting a Western-centered collection
+
+### 🏛️ Department & Artist Influence
+- Example department leaders:
+  - Architecture & Design — *Ludwig Mies van der Rohe* (≈15.5K)
+  - Photography — *Eugène Atget* (≈5K)
+  - Drawings & Prints — *Louise Bourgeois* (≈3.3K)
+
+---
+
+## 🔎 Insights (Actionable & Strategic)
+
+This new section translates the analyses into **actionable intelligence** for curators, researchers, and stakeholders.
+
+### 1. Collection Strategy & Acquisition Focus
+- **Insight:** Majority of acquisitions are post-1966 with peak growth after 2006.  
+- **Action:** Consider balancing the collection by targeting underrepresented historical periods or regions to broaden curatorial narratives.
+
+### 2. Artist & Department Priorities
+- **Insight:** A small set of artists dominate department holdings (e.g., Mies van der Rohe in Architecture).  
+- **Action:** Use this concentration to design themed exhibitions or to re-evaluate acquisition budgets for more diverse representation.
+
+### 3. Medium & Conservation Planning
+- **Insight:** Photographs and prints are the most common formats — each has specific preservation needs.  
+- **Action:** Allocate conservation resources and storage strategies based on medium prevalence (e.g., light-sensitive storage for photographs).
+
+### 4. Diversity & Representation
+- **Insight:** Nationality and gender distributions are skewed toward certain groups.  
+- **Action:** Create targeted acquisition campaigns and partnerships to increase representation of underrepresented nationalities and genders.
+
+### 5. Research & Public Engagement Opportunities
+- **Insight:** Large archival clusters (e.g., archives, illustrated books) are prime material for digitization and public programs.  
+- **Action:** Prioritize digitization and create educational exhibits or online galleries that highlight these rich collections.
+
+---
 ## 📊 Power BI Dashboard (two-page design)
 
 **Page 1 — Overview**
@@ -252,11 +303,6 @@ ORDER BY ARTWORK_COLLECTION DESC;
 * Size analysis (height × width scatter)
 * Cross-filtering and drill-through enabled
 
----
-
-## 🔗 References & Full SQL
-
-* Full SQL processing script (annotated): `Museum_collection_analysis.sql` (PDF uploaded to repo).&#x20;
 
 ---
 
