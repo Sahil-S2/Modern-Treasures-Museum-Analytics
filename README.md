@@ -303,9 +303,7 @@ This new section translates the analyses into **actionable intelligence** for cu
 **Sahil Jena**
 *Data Analytics Project | 2025*
 
-🔗 [LinkedIn](https://www.linkedin.com/in/shreya-pandey-97252431b/)
+🔗 [LinkedIn](https://www.linkedin.com/in/sahil-jena-067b1b301/)
 📁 GitHub: [MoMA-ModernArt-Analytics](https://github.com/Sahil-S2/Modern-Treasures-Museum-Analytics)
 
 ---
-::contentReference[oaicite:8]{index=8}
-```
