@@ -1,5 +1,5 @@
 # 🏛️ Museum Collection Insights
-![Dashboard Preview](Datasets/wp2186239-museum-wallpapers.jpg)
+![Dashboard Preview](screenshots/wp2186239-museum-wallpapers.jpg)
 
 **A Data Analytics & Visualization Project Using Microsoft SQL Server & Power BI**  
 Analysis period: **1929 – 2024**
@@ -290,13 +290,12 @@ This new section translates the analyses into **actionable intelligence** for cu
 
 **Page 1 — Overview**
 
-* KPIs (Total artworks, Total artists, Earliest/Latest acquisition)
-* Acquisition trend (line chart)
-* Classification treemap / bar
-* Top artists (bar chart)
-* Nationality distribution (map / bar)
+![Dashboard Preview](screenshots/Museum_Collection_Insights_page-0001.jpg)
 
 **Page 2 — Explorer**
+
+![Dashboard Preview](screenshots/Museum_Collection_Insights_page-0002.jpg)
+
 
 * Department → Top artist matrix
 * Interactive Artist Profile (cards + gallery)
